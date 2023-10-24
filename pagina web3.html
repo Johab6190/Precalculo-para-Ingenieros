@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentación de Temas</title>
+  <style>
+    body {
+      background-image: url('https://www.eninetworks.com/wp-content/uploads/2018/09/1733-600x417.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #3EEE2A;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: font-size 0.3s ease-in-out;
+    }
+
+    h1:hover {
+      font-size: 44px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #3EEE2A;
+    }
+
+    .tema-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .tema-content img,
+    .tema-content video {
+      width: 300px;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .tema-content img:hover,
+    .tema-content video:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Página Principal</a></li>
+    </ul>
+  </nav>
+  
+  <header>
+    <h1>Bienvenidos al Curso de Precalculo para Ingenieros</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="tema1.html">Propiedades de los Números Reales</a>
+          <div class="tema-content">
+            <img src="https://i.ytimg.com/vi/oStUWAsXs1o/maxresdefault.jpg" alt="Imagen Tema 1">
+          </div>
+        </li>
+        <li>
+          <a href="tema2.html">Leyes de Exponentes</a>
+          <div class="tema-content">
+            <img src="https://slideplayer.es/slide/4124764/13/images/6/Leyes+de+los+Exponentes.jpg" alt="Imagen Tema 2">
+          </div>
+        </li>
+        <li>
+          <a href="tema3.html">Suma y Resta de Fracciones Racionales</a>
+          <div class="tema-content">
+            <img src="https://matemovil.com/wp-content/uploads/2023/05/Suma-y-resta-de-fracciones-con-diferente-denominador-ejemplos.jpg" alt="Imagen Tema 3">
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
+
